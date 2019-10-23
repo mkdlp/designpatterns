@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d4a393c-0a60-453f-9c69-6b16258aff47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Aggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/composite/simplemode/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/composite/simplemode/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/composite/simplemode/Leaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/composite/simplemode/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/ConcreteImplementorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/ConcreteImplementorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Implmentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/RefinedAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,66 +23,73 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Iterator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Implmentor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="88">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Aggregate.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/ConcreteImplementorA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteAggregate.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/ConcreteImplementorB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Abstraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/RefinedAbstraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -106,18 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/RestState.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/SleepingState.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/EveningState.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/AfternoonState.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/NoonState.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/Monstate.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/Work.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/simple/Target.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/simple/Adaptee.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/simple/Adapter.java" />
-        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/classAdapter/Adapter.java" />
         <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/classadapter/Adapter.java" />
         <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/classadapter/Test.java" />
         <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/objectadapter/Target.java" />
@@ -157,6 +149,18 @@
         <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteAggregate.java" />
         <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteIterator.java" />
         <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/fullsweatmode/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/lazy/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/lazy_threadsafe/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/lazy_doublechecklock/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/hungry/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/holder/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Implmentor.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/ConcreteImplementorB.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/ConcreteImplementorA.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Abstraction.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/RefinedAbstraction.java" />
+        <option value="$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Test.java" />
       </list>
     </option>
   </component>
@@ -181,7 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,26 +204,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="date20191016" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="date20191016" type="462c0819:PsiDirectoryNode" />
-              <item name="simplemode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mkdlp.designpatterns.date20191011.Memento.history.Client" />
       <module name="DesignPatterns" />
@@ -292,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mkdlp.designpatterns.date20191011.Memento.blackcase.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mkdlp.designpatterns.date20191023.bridge.simplemode.Test" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mkdlp.designpatterns.date20191011.Memento.blackcase.*" />
+          <option name="PATTERN" value="com.mkdlp.designpatterns.date20191023.bridge.simplemode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,19 +308,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +356,11 @@
       <workItem from="1570677379015" duration="4459000" />
       <workItem from="1570761054817" duration="1490000" />
       <workItem from="1570779478403" duration="7975000" />
-      <workItem from="1571204820478" duration="9028000" />
+      <workItem from="1571204820478" duration="9171000" />
+      <workItem from="1571303588412" duration="3255000" />
+      <workItem from="1571360112582" duration="82000" />
+      <workItem from="1571808432240" duration="897000" />
+      <workItem from="1571814465924" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="完成代理模式">
       <created>1567505271033</created>
@@ -404,16 +397,30 @@
       <option name="project" value="LOCAL" />
       <updated>1570786916785</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完成组合模式">
+      <created>1571216051192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571216051192</updated>
+    </task>
+    <task id="LOCAL-00007" summary="完成单例模式">
+      <created>1571808455912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571808455912</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53682000" />
+    <option name="totallyTimeSpent" value="59807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,7 +462,9 @@
     <MESSAGE value="完成状态模式" />
     <MESSAGE value="完成适配器模式" />
     <MESSAGE value="完成适配器模式和备忘录模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成适配器模式和备忘录模式" />
+    <MESSAGE value="完成组合模式" />
+    <MESSAGE value="完成单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成单例模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -470,106 +479,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/Work.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/Monstate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/NoonState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/AfternoonState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/EveningState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/SleepingState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/RestState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="56" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191009/state/work/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/classadapter/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/classadapter/Adaptee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/classadapter/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191010/adapter/classadapter/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -900,20 +809,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Aggregate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Aggregate.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Iterator.java" />
     <entry file="jar://E:/Java/jdk1.8.0_92/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -921,44 +818,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteIterator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteAggregate.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/lazy_doublechecklock.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/lazy/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/ConcreteAggregate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/lazy_threadsafe/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191016/Iterator/simplemode/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/lazy_doublechecklock/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/holder/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191017/singleton/hungry/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Implmentor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/ConcreteImplementorA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/ConcreteImplementorB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Abstraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/RefinedAbstraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkdlp/designpatterns/date20191023/bridge/simplemode/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
